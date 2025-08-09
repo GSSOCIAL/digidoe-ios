@@ -1,0 +1,3 @@
+*.xcodeproj
+*.xcodeproj/*
+ios/Whitelabel-Info.plist

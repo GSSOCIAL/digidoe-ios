@@ -1,0 +1,36 @@
+//
+//  stage.xcconfig
+//  DigiDoe Business Banking
+//
+//  Created by Михайло Картмазов on 28.01.2025.
+//
+
+//Api hosts
+API_BASE = https:/$()/stage.digidoe.com/
+API_IS = https:/$()/stage.digidoe.com/api/
+API_KYCP = https:/$()/stage.digidoe.com/
+API_IDENTITY = https:/$()/stage-login.digidoe.com/
+
+//CONFIG
+DELETE_SESSION = 0
+FEEDBACK_EMAIL = feedback@digidoe.com
+SHARE_URL = https:/$()/businessbanking.page.link/6SuK
+APP_URL = https:/$()/apps.apple.com/ua/app/digidoe-business-banking/id6443841487
+AUTHENTICATION_URL = https:/$()/stage-login.digidoe.com/digidoe/connect/authorize
+AUTHENTICATION_TOKEN_URL = https:/$()/stage-login.digidoe.com/digidoe/connect/token
+AUTHENTICATION_REFRESHTOKEN_URL = https:/$()/stage-login.digidoe.com/digidoe/connect/token
+AUTHENICATION_ACRVALUES = idp:Customer
+AUTHENICATION_RESPONSE_TYPE = code
+AUTHENICATION_SCOPES = openid,all_api,user_data,offline_access
+AUTHENICATION_REDIRECT_URI = digidoeauth:/$()/com.digidoe.bussinessbanking/connect
+AUTHENICATION_CLIENT_ID = IosApp
+AUTHENICATION_CLIENT_SECRET = 77ce4efb-bfc1-4925-59c8-163018c4978d
+AUTHENICATION_GRANT_TYPE = authorization_code
+AUTHENTICATION_LOGOUT_REDIRECT_URI = digidoeauth:/$()/com.digidoe.bussinessbanking/logout
+AASA_REGISTER_HOST = stage-login.digidoe.com
+PLATFORM_BASE = https:/$()/stg-platform.digidoe.com
+
+USE_MOCK_DATA = 0
+
+Build = 2023
+Version = 1.9.5

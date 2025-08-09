@@ -1,0 +1,58 @@
+<svg width="220" height="160" viewBox="0 0 220 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="card">
+<circle id="Ellipse 25" cx="19" cy="35" r="5" fill="#EAEEF9"/>
+<circle id="Ellipse 26" cx="9" cy="122" r="9" fill="#EAEEF9"/>
+<circle id="Ellipse 27" cx="205" cy="28" r="6" fill="#EAEEF9"/>
+<circle id="circ;le" cx="110" cy="80" r="80" fill="#E4E8F6"/>
+<g id="Mask group">
+<mask id="mask0_2796_31953" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="30" y="0" width="160" height="160">
+<circle id="circ;le_2" cx="110" cy="80" r="80" fill="#EAEEF9"/>
+</mask>
+<g mask="url(#mask0_2796_31953)">
+<g id="Group 26823">
+<g id="Rectangle 40" filter="url(#filter0_d_2796_31953)">
+<rect x="57" y="40" width="107" height="123.264" rx="4" fill="white"/>
+<rect x="57" y="40" width="107" height="123.264" rx="4" fill="url(#paint0_linear_2796_31953)"/>
+<rect x="57" y="40" width="107" height="123.264" rx="4" fill="url(#paint1_linear_2796_31953)"/>
+</g>
+<g id="Group 26817">
+<rect id="Rectangle 41" x="62.1362" y="50.2725" width="95.016" height="26.536" rx="4" fill="white"/>
+<rect id="Rectangle 42" x="68.9844" y="57.1201" width="78.752" height="5.136" rx="2.568" fill="#D7E0E7"/>
+<rect id="Rectangle 43" x="68.9844" y="65.6807" width="32.528" height="5.136" rx="2.568" fill="#D7E0E7"/>
+</g>
+<g id="Group 26818">
+<rect id="Rectangle 41_2" x="62.1362" y="88.792" width="95.016" height="26.536" rx="4" fill="white"/>
+<rect id="Rectangle 42_2" x="68.9844" y="95.6396" width="78.752" height="5.136" rx="2.568" fill="#D7E0E7"/>
+<rect id="Rectangle 43_2" x="68.9844" y="104.2" width="32.528" height="5.136" rx="2.568" fill="#D7E0E7"/>
+</g>
+<g id="Group 26819">
+<rect id="Rectangle 41_3" x="62.1362" y="127.312" width="95.016" height="26.536" rx="4" fill="white"/>
+<rect id="Rectangle 42_3" x="68.9844" y="134.16" width="78.752" height="5.136" rx="2.568" fill="#D7E0E7"/>
+<rect id="Rectangle 43_3" x="68.9844" y="142.721" width="32.528" height="5.136" rx="2.568" fill="#D7E0E7"/>
+</g>
+</g>
+</g>
+</g>
+<circle id="Ellipse 28" cx="209" cy="4" r="4" fill="#EAEEF9"/>
+</g>
+<defs>
+<filter id="filter0_d_2796_31953" x="37" y="40" width="147" height="163.264" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="4" operator="erode" in="SourceAlpha" result="effect1_dropShadow_2796_31953"/>
+<feOffset dy="20"/>
+<feGaussianBlur stdDeviation="12"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2796_31953"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2796_31953" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_2796_31953" x1="-2.85643" y1="180.812" x2="8.56066" y2="31.3392" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E4E7EC"/>
+<stop offset="1" stop-color="#F9FAFB"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2796_31953" x1="60.7263" y1="161.805" x2="54.1539" y2="49.2591" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EDF0F6"/>
+<stop offset="1" stop-color="#FCFDFF"/>
+</linearGradient>
+</defs>
+</svg>

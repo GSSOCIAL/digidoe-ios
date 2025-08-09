@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24A348" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CoreAccount" representedClassName="CoreAccount" syncable="YES">
+        <attribute name="bankAddress" optional="YES" attributeType="String"/>
+        <attribute name="bankId" optional="YES" attributeType="String"/>
+        <attribute name="bankName" optional="YES" attributeType="String"/>
+        <attribute name="baseCurrencyCode" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="ownerName" attributeType="String"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="availableBalance" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="CoreAmount"/>
+        <relationship name="currentBalance" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="CoreAmount"/>
+        <relationship name="customer" maxCount="1" deletionRule="Deny" destinationEntity="CoreCustomer" inverseName="accounts" inverseEntity="CoreCustomer"/>
+        <relationship name="identification" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CoreAccountIdentification"/>
+    </entity>
+    <entity name="CoreAccountIdentification" representedClassName="CoreAccountIdentification" syncable="YES">
+        <attribute name="accountNumber" optional="YES" attributeType="String"/>
+        <attribute name="bban" optional="YES" attributeType="String"/>
+        <attribute name="iban" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="sortCode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoreAmount" representedClassName="CoreAmount" syncable="YES">
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="value" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CoreCustomer" representedClassName="CoreCustomer" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="accounts" toMany="YES" deletionRule="Cascade" destinationEntity="CoreAccount" inverseName="customer" inverseEntity="CoreAccount"/>
+    </entity>
+    <entity name="CoreReasonCodeLookupDto" representedClassName="CoreReasonCodeLookupDto" syncable="YES" codeGenerationType="class">
+        <attribute name="header" optional="YES" attributeType="String"/>
+        <attribute name="reasonCode" optional="YES" attributeType="String"/>
+        <attribute name="reasonDescription" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PaymentPurpose" representedClassName="PaymentPurpose" syncable="YES" codeGenerationType="class">
+        <attribute name="key" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+    </entity>
+</model>

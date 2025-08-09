@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAmkCHp0_iK2ey9Ay-uXpNs0_e5hzpf1nA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>503284485344</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.DigiDoe-Business-Banking</string>
+	<key>PROJECT_ID</key>
+	<string>digidoe-business-banking</string>
+	<key>STORAGE_BUCKET</key>
+	<string>digidoe-business-banking.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:503284485344:ios:1764717f3a81133b4c1485</string>
+	<key>CFBundleIdentifier</key>
+	<string>/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/Account.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/FileAttachment.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/Application.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/User.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/Transaction.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/Person.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/Organisation.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/Contact.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/Mandate.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/Notification.swift
+/Users/mykhailo/Documents/Projects/Digidoe/02 DigiDoe iOS Application/DigiDoe Business Banking/model/ApprovalFlow.swift</string>
+</dict>
+</plist>

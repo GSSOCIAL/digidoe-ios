@@ -1,0 +1,37 @@
+//
+//  dev.xcconfig
+//  DigiDoe Business Banking
+//
+//  Created by Настя Оксенюк on 11.10.2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//Api hosts
+API_BASE = https:/$()/dev.digidoe.com/
+API_IS = https:/$()/dev.digidoe.com/api/
+API_KYCP = https:/$()/dev.digidoe.com/
+API_IDENTITY = https:/$()/dev-login.digidoe.com/
+STORAGE_URL = https:/$()/digidoeplatformstorage.blob.core.windows.net/
+
+//CONFIG
+DELETE_SESSION = 0
+FEEDBACK_EMAIL = feedback@digidoe.com
+SHARE_URL = https:/$()/businessbanking.page.link/6SuK
+APP_URL = https:/$()/apps.apple.com/ua/app/digidoe-business-banking/id6443841487
+AUTHENTICATION_URL = https:/$()/dev-login.digidoe.com/digidoe/connect/authorize
+AUTHENTICATION_TOKEN_URL = https:/$()/dev-login.digidoe.com/digidoe/connect/token
+AUTHENTICATION_REFRESHTOKEN_URL = https:/$()/dev-login.digidoe.com/digidoe/connect/token
+AUTHENICATION_ACRVALUES = idp:Customer
+AUTHENICATION_RESPONSE_TYPE = code
+AUTHENICATION_SCOPES = openid,all_api,user_data,offline_access
+AUTHENICATION_REDIRECT_URI = digidoeauth:/$()/com.digidoe.bussinessbanking/connect
+AUTHENICATION_CLIENT_ID = IosApp
+AUTHENICATION_CLIENT_SECRET = 73579031-085b-3eb5-44d0-be9adc3534ae
+AUTHENICATION_GRANT_TYPE = authorization_code
+AUTHENTICATION_LOGOUT_REDIRECT_URI = digidoeauth:/$()/com.digidoe.bussinessbanking/logout
+AASA_REGISTER_HOST = dev-login.digidoe.com
+PLATFORM_BASE = https:/$()/dev-platform.digidoe.com
+
+USE_MOCK_DATA = 0
